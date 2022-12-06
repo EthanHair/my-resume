@@ -61,32 +61,3 @@ window.onscroll = function() {
 }
 
 year.innerHTML = new Date().getFullYear();
-
-function playBackgroundMusic() {
-    let canPlayBackgroundMusic = window.confirm("This website would like to play some soft background music")
-
-    if (canPlayBackgroundMusic)
-    {
-        const musicPlayer = document.getElementById("music-player");
-        musicPlayer.play();
-    }
-}
-
-
-
-// Potential background effect
-// document.body.addEventListener("mousemove", evt => {
-//     const mouseX = evt.clientX;
-//     const mouseY = evt.clientY;
-  
-//     gsap.set(".cursor", {
-//       x: mouseX,
-//       y: mouseY });
-  
-  
-//     gsap.to(".shape", {
-//       x: mouseX,
-//       y: mouseY,
-//       stagger: -0.1 });
-  
-//   });

@@ -1,16 +1,8 @@
-/* Colors:
-black: rgba(0, 0, 0, 1);
-oxford-blue: rgba(0, 19, 42, 1);
-skobeloff: rgba(0, 104, 107, 1);
-black-bean: rgba(63, 3, 2, 1);
-moss-green: rgba(129, 138, 81, 1);
- */
-
 .page {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-image: url("cool-website-background.jpg"); 
+    background-image: url("images/cool-website-background.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -60,6 +52,10 @@ moss-green: rgba(129, 138, 81, 1);
 .section-text {
     max-width: 60vw;
     text-align: center;
+}
+
+.section-image {
+    max-width: 40vw;
 }
 
 .short-bio {
@@ -268,40 +264,6 @@ li {
     background-color: rgba(0, 104, 107, 1);
 }
 
-/* Potential background effect
-.shapes {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background: #2128bd;
-    overflow: hidden;
-}
-
-.shape {
-  will-change: transform;
-  position: absolute;
-  border-radius: 50%;
-}
-.shape.shape-1 {
-  background: #005ffe;
-  width: 650px;
-  height: 650px;
-  margin: -325px 0 0 -325px;
-}
-.shape.shape-2 {
-  background: #ffe5e3;
-  width: 440px;
-  height: 440px;
-  margin: -220px 0 0 -220px;
-}
-.shape.shape-3 {
-  background: #ffcc57;
-  width: 270px;
-  height: 270px;
-  margin: -135px 0 0 -135px;
-}
-*/
-
 .skills {
     color: white;
     text-decoration: none;
@@ -360,7 +322,7 @@ li {
 }
 
 .html-css-javascript {
-    width: 60%;
+    width: 70%;
 }
 
 .python {
