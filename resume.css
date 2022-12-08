@@ -309,14 +309,6 @@ li {
     height: 8px;
 }
 
-.math {
-    width: 85%;
-}
-
-.physics {
-    width: 55%;
-}
-
 .c-sharp {
     width: 77%;
 }
@@ -326,11 +318,11 @@ li {
 }
 
 .python {
-    width: 65%;
+    width: 45%;
 }
 
 .rest-api {
-    width: 50%;
+    width: 60%;
 }
 
 .graphql {
